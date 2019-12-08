@@ -4,18 +4,23 @@
     <Project Name="TestProj" Path="TestProj/TestProj.project" Active="No"/>
   </VirtualDirectory>
   <VirtualDirectory Name="Section4">
-    <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
+    <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section6">
+    <Project Name="RoomCleaning" Path="RoomCleaning/RoomCleaning.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="TestProj" ConfigName="Debug"/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="RoomCleaning" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="TestProj" ConfigName="Release"/>
       <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="RoomCleaning" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
