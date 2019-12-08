@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPPWorkspace" Database="" Version="10.0.0">
-  <Project Name="TestProj" Path="TestProj/TestProj.project" Active="No"/>
-  <Project Name="TemplateProj" Path="TemplateProj/TemplateProj.project" Active="Yes"/>
+  <VirtualDirectory Name="TestProjects">
+    <Project Name="TestProj" Path="TestProj/TestProj.project" Active="Yes"/>
+  </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="TestProj" ConfigName="Debug"/>
-      <Project Name="TemplateProj" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="TestProj" ConfigName="Release"/>
-      <Project Name="TemplateProj" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
